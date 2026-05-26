@@ -669,6 +669,405 @@ export default function Sitemap() {
                     <p className="text-sm text-gray-500 mt-1 leading-snug">Editable rate matrix for setting pricing across classes</p>
                   </div>
                 </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">70.</span>
+                  <div>
+                    <Link to="/admin/fleet/V-101/images" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Vehicle Images</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Manage photos displayed for a specific vehicle</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">71.</span>
+                  <div>
+                    <Link to="/admin/locations" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">All Locations</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">List of all service locations</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">72.</span>
+                  <div>
+                    <Link to="/admin/locations/add" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Add Location</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Form for adding a new service location</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">73.</span>
+                  <div>
+                    <Link to="/admin/locations/LOC-001/edit" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Edit Location</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Pre-filled form for updating an existing location</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">74.</span>
+                  <div>
+                    <Link to="/admin/locations/LOC-001" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Location Detail</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Full profile view for a single location</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">75.</span>
+                  <div>
+                    <Link to="/admin/customers" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Customer List</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">List of all registered customers</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">76.</span>
+                  <div>
+                    <Link to="/admin/customers/CUST-001" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Customer Profile</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Full customer profile in the admin panel</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">77.</span>
+                  <div>
+                    <Link to="/admin/customers/CUST-001/bookings" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Customer Bookings</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Complete booking history for a specific customer</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">78.</span>
+                  <div>
+                    <Link to="/admin/customers/CUST-001/payments" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Customer Payments</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Admin view of all customer payment transactions</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">79.</span>
+                  <div>
+                    <Link to="/admin/drivers" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver List</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Complete roster of all employed XTASS drivers</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">80.</span>
+                  <div>
+                    <Link to="/admin/drivers/earnings" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Earnings Overview</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">All driver earnings records and withdrawal management</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">81.</span>
+                  <div>
+                    <Link to="/admin/rates" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Rate Dashboard</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Admin screen for viewing and editing platform pricing</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">82.</span>
+                  <div>
+                    <Link to="/admin/rates/add" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Add Custom Rate</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Form for creating or editing rate rules</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">83.</span>
+                  <div>
+                    <Link to="/admin/extras/protection" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Protection Products</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Manage protection extras in booking flow</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">84.</span>
+                  <div>
+                    <Link to="/admin/extras/equipment" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Equipment Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Manage equipment accessories available in booking</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">85.</span>
+                  <div>
+                    <Link to="/admin/extras/equipment/add" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Add Extra Item</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Form for creating or updating extra items</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">86.</span>
+                  <div>
+                    <Link to="/admin/content/homepage" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Homepage Editor</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">WYSIWYG editor for homepage content sections</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">87.</span>
+                  <div>
+                    <Link to="/admin/content/faqs" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">FAQ Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Manage FAQ entries and ordering</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">88.</span>
+                  <div>
+                    <Link to="/admin/content/articles" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Article List</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">List of all blog and news articles</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">89.</span>
+                  <div>
+                    <Link to="/admin/articles/add" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Add/Edit Article</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Full editor for blog posts and news</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">90.</span>
+                  <div>
+                    <Link to="/admin/content/deals" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Deals Content Editor</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Edits the content displayed on the public Deals & Coupons page</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">91.</span>
+                  <div>
+                    <Link to="/admin/content/policies" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Policy Pages Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Lists all legal and policy pages with an edit option for each</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">92.</span>
+                  <div>
+                    <Link to="/admin/content/vehicles" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Vehicle Type Pages Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Edits the content of the three vehicle type detail pages</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">93.</span>
+                  <div>
+                    <Link to="/admin/content/services" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Service Pages Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Edits the content of each service detail page</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">94.</span>
+                  <div>
+                    <Link to="/admin/reports/revenue" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Revenue Report</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Financial analytics dashboard showing total revenue</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">95.</span>
+                  <div>
+                    <Link to="/admin/reports/bookings" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Booking & Reservation Report</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Analytics dashboard showing booking volume and trends</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">96.</span>
+                  <div>
+                    <Link to="/admin/reports/fleet" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Vehicle Utilisation Report</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Analytics showing how efficiently the fleet is used</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">97.</span>
+                  <div>
+                    <Link to="/admin/reports/customers" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Customer Analytics</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Analytics focused on customer behaviour and demographics</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">98.</span>
+                  <div>
+                    <Link to="/admin/reports/drivers" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Performance Report</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Analytics comparing performance metrics across drivers</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">99.</span>
+                  <div>
+                    <Link to="/admin/notifications" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Notification Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Overview and creation of system notifications</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">100.</span>
+                  <div>
+                    <Link to="/admin/settings/emails" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Email Template Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Manages all automated email templates</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">101.</span>
+                  <div>
+                    <Link to="/admin/settings/sms" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">SMS Template Management</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Manages all automated SMS templates</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">102.</span>
+                  <div>
+                    <Link to="/admin/settings/general" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">General Settings</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Platform-wide configuration settings</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">103.</span>
+                  <div>
+                    <Link to="/admin/settings/security" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Session & Security Settings</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Security configuration for bookings and auth</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">104.</span>
+                  <div>
+                    <Link to="/admin/settings/payments" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Payment Display Settings</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Configures available payment methods</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">105.</span>
+                  <div>
+                    <Link to="/admin/settings/airports" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Supported Airports & Locations</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Manages airports served as service locations</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">106.</span>
+                  <div>
+                    <Link to="/admin/settings/cancellation" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Cancellation Policy Settings</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Configures cancellation fee rules</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">107.</span>
+                  <div>
+                    <Link to="/admin/settings/booking-rules" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Booking Rules Configuration</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Configures operational booking rules</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">108.</span>
+                  <div>
+                    <Link to="/admin/settings/extras" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Extras & Add-Ons Configuration</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Controls Extras step displayed to customers</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">109.</span>
+                  <div>
+                    <Link to="/admin/operations/live" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Live Operations Dashboard</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Real-time overview of all platform trips</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">110.</span>
+                  <div>
+                    <Link to="/admin/operations/map" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Active Trips Map Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Full-width map view showing active XTASS driver positions</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">111.</span>
+                  <div>
+                    <Link to="/admin/logs/activity" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Activity Log Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Timestamped record of all admin actions</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">112.</span>
+                  <div>
+                    <Link to="/admin/logs/system" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">System Events Log Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Automated system event log tracking</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">113.</span>
+                  <div>
+                    <Link to="/admin/settings/sitemap" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Sitemap Overview Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Admin view of the public Sitemap page</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">114.</span>
+                  <div>
+                    <Link to="/driver/login" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Login Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Login for employed XTASS drivers</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">115.</span>
+                  <div>
+                    <Link to="/driver/forgot-password" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Password Recovery</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Password reset for employed drivers</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">116.</span>
+                  <div>
+                    <Link to="/driver/setup-password" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Setup Password</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">First-time login password setup</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">117.</span>
+                  <div>
+                    <Link to="/driver/profile" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">My Employment Profile</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Read-only employment profile</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">118.</span>
+                  <div>
+                    <Link to="/driver/vehicle" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Assigned Vehicle Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Details of assigned company vehicle</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">119.</span>
+                  <div>
+                    <Link to="/driver/dashboard" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Dashboard Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Main screen for employed XTASS drivers</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">120.</span>
+                  <div>
+                    <Link to="/driver/trip-request" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Trip Request Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Read-only incoming booking request details</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">121.</span>
+                  <div>
+                    <Link to="/driver/trip-management" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Trip Management Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Active trip progression and controls</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">122.</span>
+                  <div>
+                    <Link to="/driver/trip-completion" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Trip Completion Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Fare summary and passenger rating</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">123.</span>
+                  <div>
+                    <Link to="/driver/earnings" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Earnings Dashboard Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Driver's detailed earnings history and daily/weekly charts</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">124.</span>
+                  <div>
+                    <Link to="/driver/settings" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Settings Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Notification and app preferences</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">125.</span>
+                  <div>
+                    <Link to="/driver/support" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Support Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Contact operations and report issues</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-400 font-medium mr-3 mt-0.5 text-sm">126.</span>
+                  <div>
+                    <Link to="/driver/history" className="font-bold text-gray-900 hover:text-brand-maroon transition-colors block">Driver Trip History Screen</Link>
+                    <p className="text-sm text-gray-500 mt-1 leading-snug">Complete history of all completed trips</p>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
